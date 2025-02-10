@@ -81,7 +81,7 @@
             {% set img = resize_image(path="logo/constructicon.png", width=300,
  op="fit_width") %}
             <img src="{{ img.url }}"
-                 class="figure-img img-fluid rounded" alt="Constructicon logo">
+                 class="figure-img img-fluid rounded" alt="Norwegian Constructicon">
           </figure>
         </div>
         <div class="col-md-9">
@@ -141,14 +141,6 @@
               {% set img = resize_image(path="logo/uit.png", width=90, op="fit_width") %}
               <img src="{{ img.url }}"
                    class="figure-img img-fluid rounded" alt="UiT logo">
-            </figure>
-          </a>
-
-          <a href="https://www.hse.ru/en/" target="_blank">
-            <figure class="figure">
-              {% set img = resize_image(path="logo/hse.jpg", width=150, op="fit_width") %}
-              <img src="{{ img.url }}"
-                   class="figure-img img-fluid rounded" alt="HSE logo">
             </figure>
           </a>
         {% endblock footer %}
