@@ -75,40 +75,40 @@
     <div class="container">
 
       <!-- navigation -->
-      <div class="row top-buffer">
-        <div class="col-md-3">
-          <figure class="figure">
-            {% set img = resize_image(path="logo/constructicon.png", width=300,
+      <div class="row top-buffer d-flex align-items-center">
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+          <figure class="figure m-0">
+            {% set img = resize_image(path="logo/constructicon.png", width=250,
  op="fit_width") %}
             <img src="{{ img.url }}"
-                 class="figure-img img-fluid rounded" alt="Norwegian Constructicon">
+                 class="figure-img img-fluid rounded mb-0" alt="Norwegian Constructicon">
           </figure>
         </div>
         <div class="col-md-9">
-          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d9f2ff;">
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: RGBA(8,52,73, 0.7);">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-5">
-                  <a class="nav-link" href="{{ config.base_url | safe }}/">Browse</a>
+                  <a class="nav-link text-light" href="{{ config.base_url | safe }}/">Browse</a>
                 </li>
                   <li class="nav-item mr-5">
-                      <a class="nav-link" href="{{ config.base_url | safe }}/advanced-search/">Advanced search</a>
+                      <a class="nav-link text-light" href="{{ config.base_url | safe }}/advanced-search/">Advanced search</a>
                   </li>
                 <li class="nav-item mr-5">
-                  <a class="nav-link" href="{{ config.base_url | safe }}/daily/">Daily dose</a>
+                  <a class="nav-link text-light" href="{{ config.base_url | safe }}/daily/">Daily dose</a>
                 </li>
                   <li class="nav-item mr-5">
-                      <a class="nav-link" href="{{ config.base_url | safe }}/statistics/">Statistics</a>
+                      <a class="nav-link text-light" href="{{ config.base_url | safe }}/statistics/">Statistics</a>
                   </li>
                   <li class="nav-item mr-5">
-                      <a class="nav-link" href="{{ config.base_url | safe }}/instructions/">Instructions</a>
+                      <a class="nav-link text-light" href="{{ config.base_url | safe }}/instructions/">Instructions</a>
                   </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ config.base_url | safe }}/about/">About</a>
+                  <a class="nav-link text-light" href="{{ config.base_url | safe }}/about/">About</a>
                 </li>
               </ul>
             </div>
