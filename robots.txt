@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://constructicon.github.io/norwegian/sitemap.xml
