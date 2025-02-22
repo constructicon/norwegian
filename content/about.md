@@ -6,12 +6,12 @@ template = "about.html"
 # Om prosjektet
 Velkommen til **Det norske konstruktikonet** (forkortet **NorKon**), en stor, søkbar database over grammatiske konstruksjoner i norsk. Vi bruker ordet «konstruksjon» for å referere til språkmønstre som er idiomatiske og som vanskelig lar seg oversette direkte. Dermed er de også ofte vanskelige å forstå og bruke riktig for innlærere. Konstruksjoner kan bestå av flere ord med én eller flere «åpne plasser», som i **X og X, fru Blom** (1), **X belønne Y framfor Z** (2), og **X passe inn med Y** (3). Vi regner også høyfrekvente ordkombinasjoner som fort gjort (4) som konstruksjoner, fordi de er ikke-komposisjonelle (det er ikke nok å vite betydningen av _fort_ og _gjort_ for å forstå _fort gjort_).
 
-1.	Puben er irsk...skjønt [«er»] ~X~ **og** [«er»]~X~, **fru Blom**. (NoWaC) 
+1.	Puben er irsk...skjønt [«er»]~X~ **og** [«er»]~X~, **fru Blom**. (NoWaC) 
 2.	[Publiseringssystemet]~X~ **belønner** [kvantitet]~Y~ framfor [kvalitet]~Z~. (Khrono)
 3.	[Alt som ikke]~X~ **passer inn med** [deres ideologi]~Y~, skal ut. (Khrono)
 4.	Det er **fort gjort** å trykke på feil tast. (NoWaC)
 
-    NoWaC er et webkorpus som inneholder ca. 700 millioner ord.
+    NoWaC er et webkorpus som inneholder ca. 700 millioner ord. А~X~
 
 Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to stoler i den forstand at de i liten eller ingen grad er representert i grammatikk- eller ordbøker. NorKon er ment å kompensere for denne mangelen i eksisterende språkressurser.
 
