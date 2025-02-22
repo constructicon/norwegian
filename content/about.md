@@ -85,14 +85,13 @@ NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk
 
 * Anna Endresen (UiT)
 * Olaf Mikkelsen (UiT)
-* Knut Ørke (UiT)
-* Tore Nesset (UiT)
+* Zoia Butenko (Universitetet i Oslo): programmering
 * Laura Janda (UiT)
 * Urd Vindenes (Universitetet i Sørøst-Norge)
+* Knut Ørke (UiT)
+* Tore Nesset (UiT)
 * Paulina Horbowicz (Adam Mickiewicz-universitetet i Poznań, Polen)
-* Zoia Butenko (Universitetet i Oslo)
-* Radovan Bast (CodeRefinery; oceanbox.io)
-* Trine Sand Bakken (Voksenopplæringen i Tromsø)
+* Radovan Bast (CodeRefinery; oceanbox.io): programmering
 
 # Hvordan sitere ressursen:
 
