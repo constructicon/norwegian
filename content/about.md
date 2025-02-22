@@ -17,7 +17,7 @@ Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to st
 
 # Det beste fra leksikografi og grammatikk
 Leksikografi, eller ordkunnskap og utarbeiding av ordbøker, er et empirisk fag som baserer seg på store mengder korpusdata for å beskrive ordenes betydning og bruk, også flerordsuttrykk. Samtidig er relasjonene mellom ordene og hvordan de kombineres et underutviklet område innen leksikografi. Tradisjonell grammatikk på sin side fokuserer nettopp på hvordan språkformer danner et helhetlig system, men tar for seg kun en liten del av språket og baserer seg som regel ikke på autentiske eksempler.
-Dette betyr at det oppstår blindsoner i språket som er lite beskrevet. Vi kan illustrere dette med konstruksjonene **drive og V** (5), **sitte og V** (6), ***ligge og V** (7), **stå og V** (8), og **gå og V** (9), der V står for et verb.
+Dette betyr at det oppstår blindsoner i språket som er lite beskrevet. Vi kan illustrere dette med konstruksjonene **drive og V** (5), **sitte og V** (6), **ligge og V** (7), **stå og V** (8), og **gå og V** (9), der V står for et verb.
 
 5.	Min venninne og jeg **driver og planlegger** tur til Mount Everest. (NoWaC)
 6.	Jeg **sitter og leser** i et blad nå. (NoWaC)
@@ -46,7 +46,7 @@ Alle konstruksjoner i NorKon blir gruppert i familier basert på semantiske og s
 
 Disse eksemplene viser at faktisk språkbruk er langt fra den idealiserte forestillingen der én form har én funksjon og kategorier enkelt kan overføres fra et språk til et annet (eksempel (5), (6), (7), (8), (9) og (12) kan alle oversettes til engelsk med «present continuous», men ingen av dem brukes nøyaktig som den engelske formen). Snarere kan vi snakke om et lappeteppe av delvis overlappende former, der vår oppgave er å vise hvordan de ulike lappene er sydd sammen. Konstruksjonene vi har diskutert her kan representeres grafisk som i figuren under, der noen konstruksjoner har lignende form og funksjon, mens andre bare deler form eller bare funksjon.
 
-<img width="1168" alt="figur 1" src="https://github.com/user-attachments/assets/e2472562-d21a-4f54-ac37-7bbc6d6f940e" />
+<img width="828" alt="Figur1 Om NorKon" src="https://github.com/user-attachments/assets/a9dbf96b-d86a-4618-999b-81a11c783270" />
 
 Et slikt lokalt nettverk av konstruksjoner kan utvides til å inkludere hele språket, og termen «konstruktikon» brukes derfor både for å referere til databaser som NorKon, men også for å referere til det mentale nettverket som sies å utgjøre vår språkevne (se Teorien bak prosjektet under). NorKon utgjør dermed en kognitivt plausibel modell av språket som et nettverk av mentale assosiasjoner mellom språklige former og funksjoner. Derfor er vårt mål at NorKon skal dekke så mye av språket som mulig.
 
@@ -64,9 +64,9 @@ NorKon fokuserer også på språkets generative kraft: hvordan man kan kombinere
 
 I denne fremstillingen har vi brukt fagtermer for å beskrive hvordan konstruksjonene brukes, men én av fordelene med konstruksjonsbasert læring er at man kan unnslippe «ordklasseveldet» og den gresk-latinske terminologien som følger med på lasset. Klassisk grammatikkundervisning tar utgangspunkt i språklige former, som f.eks. presens perfektum. Vi kan tenke på konstruksjoner som et språklig mønster med en språklig funksjon og heller ta utgangspunkt i funksjonen. For eksempel kan vi bruke konstruksjonen ha (ikke) V siden TIDSPUNKT for å uttrykke at en situasjon (ikke) gjelder siden et tidspunkt i fortiden og også i fremtiden. Konstruksjonen brukes altså både positivt (16) og negativt (17), mens varianten ha ikke V på ANTALL TID (18) bare kan brukes negativt.
 
-16.	Koret vårt **har** [eksistert]~HANDLING~ **siden** [96]~TIDSPUNKT~. (NoWaC)
-17.	Jeg må så innmari tisse, jeg **har ikke** [tissa]~HANDLING~ **siden** [i dag tidlig]~TIDSPUNKT~. (NoWaC)
-18.	Jeg **har ikke** [trent]~HANDLING~ **på** [flere år]~ANTALL TID~. (NoWaC)
+16.	Koret vårt **har** [eksistert]HANDLING~ **siden** [96]TIDSPUNKT. (NoWaC)
+17.	Jeg må så innmari tisse, jeg **har ikke** [tissa]HANDLING **siden** [i dag tidlig]TIDSPUNKT. (NoWaC)
+18.	Jeg **har ikke** [trent]HANDLING **på** [flere år]ANTALL TID. (NoWaC)
 
 Fordelen med en slik tilnærming er at man slipper å lære om alle de ulike bruksområdene til en kategori (f.eks. presens perfektum) på én gang og heller kan fokusere på den relevante kommunikative funksjonen som trengs for å uttrykke en idé. Dessuten kan man også unngå terminologi som presens perfektum. Fordelen for studenter uten skolegang burde være åpenbar, men også for høyt utdannede kan dette være en fordel fordi slike kategorier oppfører seg ulikt på tvers av språk: for eksempel er det mange språk som ikke bruker presens perfektum for å uttrykke at en situasjon fortsatt (ikke) gjelder.
 
@@ -78,7 +78,7 @@ Termen **konstruktikon** refererer både til språkevnen som et nettverk av ment
 
 NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk som heter **konstruktikografi**, altså bygging av konstruktikoner. Dette feltet ligger i grenselandet mellom konstruksjonsgrammatikk, leksikografi, språkteknologi, og bruksbaserte tilnærminger til språksystemet.
 
-**Det norske konstruktikonet** er et stort gruppeprosjekt der språkvitere og undervisere i norsk fra både Norge og utlandet kan delta. Hvis du er interessert i å samarbeide med oss, vennligst send en e-post til anna.endresen@uit.no eller olaf.a.mikkelsen@uit.no
+**Det norske konstruktikonet** er et stort gruppeprosjekt der språkvitere og undervisere i norsk fra både Norge og utlandet kan delta. Hvis du er interessert i å samarbeide med oss, vennligst send en e-post til [anna.endresen@uit.no](anna.endresen@uit.no) eller [olaf.a.mikkelsen@uit.no](olaf.a.mikkelsen@uit.no).
 
 # Prosjektmedlemmer:
 
