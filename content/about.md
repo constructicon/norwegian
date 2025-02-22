@@ -16,6 +16,7 @@ Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to st
 # Det beste fra leksikografi og grammatikk
 Leksikografi, eller ordkunnskap og utarbeiding av ordbøker, er et empirisk fag som baserer seg på store mengder korpusdata for å beskrive ordenes betydning og bruk, også flerordsuttrykk. Samtidig er relasjonene mellom ordene og hvordan de kombineres et underutviklet område innen leksikografi. Tradisjonell grammatikk på sin side fokuserer nettopp på hvordan språkformer danner et helhetlig system, men tar for seg kun en liten del av språket og baserer seg som regel ikke på autentiske eksempler.
 Dette betyr at det oppstår blindsoner i språket som er lite beskrevet. Vi kan illustrere dette med konstruksjonene **drive og V** (5), **sitte og V** (6), ***ligge og V** (7), **stå og V** (8), og **gå og V** (9), der V står for et verb.
+
 5.	Min venninne og jeg driver og planlegger tur til Mount Everest. (NoWaC)
 6.	Jeg sitter og leser i et blad nå. (NoWaC)
 7.	Det pipes mot Vidar Riseth når han ligger og vrir seg i «smerte». (NoWaC)
@@ -79,16 +80,16 @@ NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk
 
 # Prosjektmedlemmer:
 
-Anna Endresen (UiT)
-Olaf Mikkelsen (UiT)
-Knut Ørke (UiT)
-Tore Nesset (UiT)
-Laura Janda (UiT)
-Urd Vindenes (Universitetet i Sørøst-Norge)
-Paulina Horbowicz (Adam Mickiewicz-universitetet i Poznań, Polen)
-Zoia Butenko (Universitetet i Oslo)
-Radovan Bast (CodeRefinery; oceanbox.io)
-Trine Sand Bakken (Voksenopplæringen i Tromsø)
+* Anna Endresen (UiT)
+* Olaf Mikkelsen (UiT)
+* Knut Ørke (UiT)
+* Tore Nesset (UiT)
+* Laura Janda (UiT)
+* Urd Vindenes (Universitetet i Sørøst-Norge)
+* Paulina Horbowicz (Adam Mickiewicz-universitetet i Poznań, Polen)
+* Zoia Butenko (Universitetet i Oslo)
+* Radovan Bast (CodeRefinery; oceanbox.io)
+* Trine Sand Bakken (Voksenopplæringen i Tromsø)
 
 # Hvordan sitere ressursen:
 
