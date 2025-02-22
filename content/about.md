@@ -57,17 +57,17 @@ I innledningen nevnte vi at flerordsuttrykk er et lite utforsket område av spr�
 
 Ved å flytte fokus fra tradisjonell grammatikk til språkstrukturer som er frekvente i faktisk språkbruk flyttes også fokus fra å bruke språket på en måte som er grammatikalsk korrekt til en måte som er idiomatisk (les: slik folk faktisk bruker språket). Det er ikke grammatikalsk feil å si «en fugl er i treet», men folk med norsk som morsmål vil allikevel foretrekke «det sitter en fugl i treet» (14). Denne presenterings-konstruksjonen er et eksempel på idiomatisk språk, altså slik vi pleier å si ting på norsk. Et godt idiomatisk språk er veien til språklig integrering og NorKon tilbyr strukturert oversikt over idiomatiske strukturer som er annotert for språknivå i henhold til Europarådets nivåskala (A1 til C2).
 
-14. **Det sitter** [en fugl]~NOE(N)~ [i treet utenfor vinduet]~STED~. (NoWaC)
+14. **Det sitter** [en fugl]<sub>NOE(N)</sub> [i treet utenfor vinduet]<sub>STED</sub>. (NoWaC)
 
 NorKon fokuserer også på språkets generative kraft: hvordan man kan kombinere ulike konstruksjoner for å skape stadig mer komplekse strukturer. For eksempel kan sitte og V-konstruksjonen (6) og presenterings-konstruksjonen (14) kombineres til en ny struktur (15), som både presenterer en ny referent og beskriver at handlingen som utføres er pågående og har utstrekning i tid.
 
-15. **Det sitter** [en statsråd]~NOE(N)~ [i Oslo]~STED~ **og** [overkjører lokaldemokratiet]~HANDLING~. (Facebook)
+15. **Det sitter** [en statsråd]<sub>NOE(N)</sub> [i Oslo]<sub>STED</sub> **og** [overkjører lokaldemokratiet]<sub>HANDLING</sub>. (Facebook)
 
 I denne fremstillingen har vi brukt fagtermer for å beskrive hvordan konstruksjonene brukes, men én av fordelene med konstruksjonsbasert læring er at man kan unnslippe «ordklasseveldet» og den gresk-latinske terminologien som følger med på lasset. Klassisk grammatikkundervisning tar utgangspunkt i språklige former, som f.eks. presens perfektum. Vi kan tenke på konstruksjoner som et språklig mønster med en språklig funksjon og heller ta utgangspunkt i funksjonen. For eksempel kan vi bruke konstruksjonen ha (ikke) V siden TIDSPUNKT for å uttrykke at en situasjon (ikke) gjelder siden et tidspunkt i fortiden og også i fremtiden. Konstruksjonen brukes altså både positivt (16) og negativt (17), mens varianten ha ikke V på ANTALL TID (18) bare kan brukes negativt.
 
-16.	Koret vårt **har** [eksistert]HANDLING~ **siden** [96]TIDSPUNKT. (NoWaC)
-17.	Jeg må så innmari tisse, jeg **har ikke** [tissa]HANDLING **siden** [i dag tidlig]TIDSPUNKT. (NoWaC)
-18.	Jeg **har ikke** [trent]HANDLING **på** [flere år]ANTALL TID. (NoWaC)
+16.	Koret vårt **har** [eksistert]<sub>HANDLING</sub> **siden** [96]<sub>TIDSPUNKT</sub>. (NoWaC)
+17.	Jeg må så innmari tisse, jeg **har ikke** [tissa]<sub>HANDLING</sub> **siden** [i dag tidlig]<sub>TIDSPUNKT</sub>. (NoWaC)
+18.	Jeg **har ikke** [trent]<sub>HANDLING</sub> **på** [flere år]<sub>ANTALL TID</sub>. (NoWaC)
 
 Fordelen med en slik tilnærming er at man slipper å lære om alle de ulike bruksområdene til en kategori (f.eks. presens perfektum) på én gang og heller kan fokusere på den relevante kommunikative funksjonen som trengs for å uttrykke en idé. Dessuten kan man også unngå terminologi som presens perfektum. Fordelen for studenter uten skolegang burde være åpenbar, men også for høyt utdannede kan dette være en fordel fordi slike kategorier oppfører seg ulikt på tvers av språk: for eksempel er det mange språk som ikke bruker presens perfektum for å uttrykke at en situasjon fortsatt (ikke) gjelder.
 
