@@ -95,11 +95,11 @@ NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk
 
 # Hvordan sitere ressursen:
 
-*På norsk:
+* På norsk:
 
 > NorKon 2024 – Det norske konstruktikonet. Et digitalt nettverk av norske konstruksjoner. Tilgjengelig på [https://constructicon.github.io/norwegian/](https://constructicon.github.io/norwegian/)
 
-*In English:
+* In English:
 
 > NorKon 2024 – The Norwegian Constructicon. A digital network of Norwegian constructions. Available at [https://constructicon.github.io/norwegian/](https://constructicon.github.io/norwegian/)
 
