@@ -44,7 +44,7 @@ Alle konstruksjoner i NorKon blir gruppert i familier basert på semantiske og s
 
 Disse eksemplene viser at faktisk språkbruk er langt fra den idealiserte forestillingen der én form har én funksjon og kategorier enkelt kan overføres fra et språk til et annet (eksempel (5), (6), (7), (8), (9) og (12) kan alle oversettes til engelsk med «present continuous», men ingen av dem brukes nøyaktig som den engelske formen). Snarere kan vi snakke om et lappeteppe av delvis overlappende former, der vår oppgave er å vise hvordan de ulike lappene er sydd sammen. Konstruksjonene vi har diskutert her kan representeres grafisk som i figuren under, der noen konstruksjoner har lignende form og funksjon, mens andre bare deler form eller bare funksjon.
 
-BILDE
+<img width="1168" alt="figur 1" src="https://github.com/user-attachments/assets/e2472562-d21a-4f54-ac37-7bbc6d6f940e" />
 
 Et slikt lokalt nettverk av konstruksjoner kan utvides til å inkludere hele språket, og termen «konstruktikon» brukes derfor både for å referere til databaser som NorKon, men også for å referere til det mentale nettverket som sies å utgjøre vår språkevne (se Teorien bak prosjektet under). NorKon utgjør dermed en kognitivt plausibel modell av språket som et nettverk av mentale assosiasjoner mellom språklige former og funksjoner. Derfor er vårt mål at NorKon skal dekke så mye av språket som mulig.
 
