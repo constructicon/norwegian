@@ -6,10 +6,12 @@ template = "about.html"
 # Om prosjektet
 Velkommen til **Det norske konstruktikonet** (forkortet **NorKon**), en stor, søkbar database over grammatiske konstruksjoner i norsk. Vi bruker ordet «konstruksjon» for å referere til språkmønstre som er idiomatiske og som vanskelig lar seg oversette direkte. Dermed er de også ofte vanskelige å forstå og bruke riktig for innlærere. Konstruksjoner kan bestå av flere ord med én eller flere «åpne plasser», som i **X og X, fru Blom** (1), **X belønne Y framfor Z** (2), og **X passe inn med Y** (3). Vi regner også høyfrekvente ordkombinasjoner som fort gjort (4) som konstruksjoner, fordi de er ikke-komposisjonelle (det er ikke nok å vite betydningen av _fort_ og _gjort_ for å forstå _fort gjort_).
 
-1.	Puben er irsk...skjønt [«er»]X og [«er»]X, fru Blom. (NoWaC) 
-2.	[Publiseringssystemet]X belønner [kvantitet]Y framfor [kvalitet]Z. (Khrono)
-3.	[Alt som ikke]X passer inn med [deres ideologi]Y, skal ut. (Khrono)
-4.	Det er fort gjort å trykke på feil tast. (NoWaC)
+1.	Puben er irsk...skjønt [«er»]~X~ **og** [«er»]~X~, **fru Blom**. (NoWaC) 
+2.	[Publiseringssystemet]~X~ **belønner** [kvantitet]~Y~ framfor [kvalitet]~Z~. (Khrono)
+3.	[Alt som ikke]~X~ **passer inn med** [deres ideologi]~Y~, skal ut. (Khrono)
+4.	Det er **fort gjort** å trykke på feil tast. (NoWaC)
+
+    NoWaC er et webkorpus som inneholder ca. 700 millioner ord.
 
 Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to stoler i den forstand at de i liten eller ingen grad er representert i grammatikk- eller ordbøker. NorKon er ment å kompensere for denne mangelen i eksisterende språkressurser.
 
@@ -17,13 +19,13 @@ Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to st
 Leksikografi, eller ordkunnskap og utarbeiding av ordbøker, er et empirisk fag som baserer seg på store mengder korpusdata for å beskrive ordenes betydning og bruk, også flerordsuttrykk. Samtidig er relasjonene mellom ordene og hvordan de kombineres et underutviklet område innen leksikografi. Tradisjonell grammatikk på sin side fokuserer nettopp på hvordan språkformer danner et helhetlig system, men tar for seg kun en liten del av språket og baserer seg som regel ikke på autentiske eksempler.
 Dette betyr at det oppstår blindsoner i språket som er lite beskrevet. Vi kan illustrere dette med konstruksjonene **drive og V** (5), **sitte og V** (6), ***ligge og V** (7), **stå og V** (8), og **gå og V** (9), der V står for et verb.
 
-5.	Min venninne og jeg driver og planlegger tur til Mount Everest. (NoWaC)
-6.	Jeg sitter og leser i et blad nå. (NoWaC)
-7.	Det pipes mot Vidar Riseth når han ligger og vrir seg i «smerte». (NoWaC)
-8.	Vi ble stående og diskutere gårdsprodusert øl fra Midt-Norge. (NoWaC)
-9.	Nå orker jeg ikke gå og ha det slik lenger. (NoWaC)
+5.	Min venninne og jeg **driver og planlegger** tur til Mount Everest. (NoWaC)
+6.	Jeg **sitter og leser** i et blad nå. (NoWaC)
+7.	Det pipes mot Vidar Riseth når han **ligger og vrir seg** i «smerte». (NoWaC)
+8.	Vi **ble stående og diskutere** gårdsprodusert øl fra Midt-Norge. (NoWaC)
+9.	Nå orker jeg ikke **gå og ha** det slik lenger. (NoWaC)
 
-Disse konstruksjonene er mangelfullt beskrevet i ordbøkene. For eksempel er sitte og V oppført i Norsk Akademis Ordbok (naob.no), men ikke i bokmåls- og nynorskordboka (ordbokene.no); drive og V er oppført i nynorskordboka, men ikke i NAOB og bokmålsordboka, osv. Dessuten peker ikke uttrykkene, i den grad de er representert, til hverandre. Man går med andre ord glipp av at disse uttrykkene inngår i et system for å uttrykke at en handling er pågående, tilsvarende engelsk «present continuous».
+Disse konstruksjonene er mangelfullt beskrevet i ordbøkene. For eksempel er **sitte og V** oppført i Norsk Akademis Ordbok (naob.no), men ikke i bokmåls- og nynorskordboka (ordbokene.no); **drive og V** er oppført i nynorskordboka, men ikke i NAOB og bokmålsordboka, osv. Dessuten peker ikke uttrykkene, i den grad de er representert, til hverandre. Man går med andre ord glipp av at disse uttrykkene inngår i et system for å uttrykke at en handling er pågående, tilsvarende engelsk «present continuous».
 
 Dersom vi konsulterer en innføringsbok i norsk grammatikk, blir alle konstruksjonene nevnt sammen: «Norwegian uses separate expressions to compensate for the lack of progressive tense» (Mac Donald & MacDonald 2013: 76). Men eksemplene som oppgis er liten grad illustrerende når det gjelder forskjellene mellom de ulike uttrykkene.
 
@@ -54,17 +56,17 @@ I innledningen nevnte vi at flerordsuttrykk er et lite utforsket område av spr�
 
 Ved å flytte fokus fra tradisjonell grammatikk til språkstrukturer som er frekvente i faktisk språkbruk flyttes også fokus fra å bruke språket på en måte som er grammatikalsk korrekt til en måte som er idiomatisk (les: slik folk faktisk bruker språket). Det er ikke grammatikalsk feil å si «en fugl er i treet», men folk med norsk som morsmål vil allikevel foretrekke «det sitter en fugl i treet» (14). Denne presenterings-konstruksjonen er et eksempel på idiomatisk språk, altså slik vi pleier å si ting på norsk. Et godt idiomatisk språk er veien til språklig integrering og NorKon tilbyr strukturert oversikt over idiomatiske strukturer som er annotert for språknivå i henhold til Europarådets nivåskala (A1 til C2).
 
-14. Det sitter [en fugl]NOE(N) [i treet utenfor vinduet]STED. (NoWaC)
+14. **Det sitter** [en fugl]~NOE(N)~ [i treet utenfor vinduet]~STED~. (NoWaC)
 
 NorKon fokuserer også på språkets generative kraft: hvordan man kan kombinere ulike konstruksjoner for å skape stadig mer komplekse strukturer. For eksempel kan sitte og V-konstruksjonen (6) og presenterings-konstruksjonen (14) kombineres til en ny struktur (15), som både presenterer en ny referent og beskriver at handlingen som utføres er pågående og har utstrekning i tid.
 
-15. Det sitter [en statsråd]NOE(N) [i Oslo]STED og [overkjører lokaldemokratiet]HANDLING. (Facebook)
+15. **Det sitter** [en statsråd]~NOE(N)~ [i Oslo]~STED~ **og** [overkjører lokaldemokratiet]~HANDLING~. (Facebook)
 
 I denne fremstillingen har vi brukt fagtermer for å beskrive hvordan konstruksjonene brukes, men én av fordelene med konstruksjonsbasert læring er at man kan unnslippe «ordklasseveldet» og den gresk-latinske terminologien som følger med på lasset. Klassisk grammatikkundervisning tar utgangspunkt i språklige former, som f.eks. presens perfektum. Vi kan tenke på konstruksjoner som et språklig mønster med en språklig funksjon og heller ta utgangspunkt i funksjonen. For eksempel kan vi bruke konstruksjonen ha (ikke) V siden TIDSPUNKT for å uttrykke at en situasjon (ikke) gjelder siden et tidspunkt i fortiden og også i fremtiden. Konstruksjonen brukes altså både positivt (16) og negativt (17), mens varianten ha ikke V på ANTALL TID (18) bare kan brukes negativt.
 
-16.	Koret vårt har [eksistert]HANDLING siden [96]TIDSPUNKT. (NoWaC)
-17.	Jeg må så innmari tisse, jeg har ikke [tissa]HANDLING siden [i dag tidlig]TIDSPUNKT. (NoWaC)
-18.	Jeg har ikke [trent]HANDLING på [flere år]ANTALL TID. (NoWaC)
+16.	Koret vårt **har** [eksistert]~HANDLING~ **siden** [96]~TIDSPUNKT~. (NoWaC)
+17.	Jeg må så innmari tisse, jeg **har ikke** [tissa]~HANDLING~ **siden** [i dag tidlig]~TIDSPUNKT~. (NoWaC)
+18.	Jeg **har ikke** [trent]~HANDLING~ **på** [flere år]~ANTALL TID~. (NoWaC)
 
 Fordelen med en slik tilnærming er at man slipper å lære om alle de ulike bruksområdene til en kategori (f.eks. presens perfektum) på én gang og heller kan fokusere på den relevante kommunikative funksjonen som trengs for å uttrykke en idé. Dessuten kan man også unngå terminologi som presens perfektum. Fordelen for studenter uten skolegang burde være åpenbar, men også for høyt utdannede kan dette være en fordel fordi slike kategorier oppfører seg ulikt på tvers av språk: for eksempel er det mange språk som ikke bruker presens perfektum for å uttrykke at en situasjon fortsatt (ikke) gjelder.
 
