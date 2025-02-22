@@ -11,7 +11,7 @@ Velkommen til **Det norske konstruktikonet** (forkortet **NorKon**), en stor, s�
 3.	[Alt som ikke]~X~ **passer inn med** [deres ideologi]~Y~, skal ut. (Khrono)
 4.	Det er **fort gjort** å trykke på feil tast. (NoWaC)
 
-    NoWaC er et webkorpus som inneholder ca. 700 millioner ord. А~X~
+    NoWaC er et webkorpus som inneholder ca. 700 millioner ord.
 
 Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to stoler i den forstand at de i liten eller ingen grad er representert i grammatikk- eller ordbøker. NorKon er ment å kompensere for denne mangelen i eksisterende språkressurser.
 
@@ -95,12 +95,14 @@ NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk
 
 # Hvordan sitere ressursen:
 
-På norsk:
-NorKon 2024 – Det norske konstruktikonet. Et digitalt nettverk av norske konstruksjoner. Tilgjengelig på https://constructicon.github.io/norwegian/
+*På norsk:
 
-In English:
-NorKon 2024 – The Norwegian Constructicon. A digital network of Norwegian constructions. Available at https://constructicon.github.io/norwegian/
+> NorKon 2024 – Det norske konstruktikonet. Et digitalt nettverk av norske konstruksjoner. Tilgjengelig på [https://constructicon.github.io/norwegian/](https://constructicon.github.io/norwegian/)
+
+*In English:
+
+> NorKon 2024 – The Norwegian Constructicon. A digital network of Norwegian constructions. Available at [https://constructicon.github.io/norwegian/](https://constructicon.github.io/norwegian/)
 
 # Publikasjoner om prosjektet:
 
-Endresen, Anna & Olaf Mikkelsen. 2024. Ten good reasons to build the Norwegian ConstructiCon, a dictionary of grammar. Lexicographica – International Annual for Lexicography, 40(1), 121-145. https://doi.org/10.1515/lex-2024-0007 (open access).
+> Endresen, Anna & Olaf Mikkelsen. 2024. **Ten good reasons to build the Norwegian ConstructiCon, a dictionary of grammar.** _Lexicographica – International Annual for Lexicography_ 40(1), 121-145. [https://doi.org/10.1515/lex-2024-0007](https://www.degruyter.com/document/doi/10.1515/lex-2024-0007/html) (open access).
