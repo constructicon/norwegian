@@ -47,7 +47,7 @@ Disse eksemplene viser at faktisk språkbruk er langt fra den idealiserte forest
 
 <img width="828" alt="Figur1 Om NorKon" src="https://github.com/user-attachments/assets/a9dbf96b-d86a-4618-999b-81a11c783270" />
 
-Et slikt lokalt nettverk av konstruksjoner kan utvides til å inkludere hele språket, og termen «konstruktikon» brukes derfor både for å referere til databaser som NorKon, men også for å referere til det mentale nettverket som sies å utgjøre vår språkevne (se Teorien bak prosjektet under). NorKon utgjør dermed en kognitivt plausibel modell av språket som et nettverk av mentale assosiasjoner mellom språklige former og funksjoner. Derfor er vårt mål at NorKon skal dekke så mye av språket som mulig.
+Et slikt lokalt nettverk av konstruksjoner kan utvides til å inkludere hele språket, og termen **«konstruktikon»** brukes derfor både for å referere til databaser som NorKon, men også for å referere til det mentale nettverket som sies å utgjøre vår språkevne (se _Teorien bak prosjektet_ under). NorKon utgjør dermed en kognitivt plausibel modell av språket som et nettverk av mentale assosiasjoner mellom språklige former og funksjoner. Derfor er vårt mål at NorKon skal dekke så mye av språket som mulig.
 
 # Pedagogiske fordeler
 
