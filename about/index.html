@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://constructicon.github.io/norwegian/img/favicon.ico">
+
+    <title>Constructicon</title>
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/constructicon/norwegian/main/content/logo/constructicon-round.png" />
+    
+
+    
+      <meta name="description" content="Description of the Constructicon.
+" />
+      <meta name="twitter:description" content="Description of the Constructicon.
+" />
+    
+
+    
+      <meta name="twitter:title" content="About" />
+    
+
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"
+            integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68="
+            crossorigin="anonymous"></script>
+
+    <!-- https://vue-treeselect.js.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
+            integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js"
+            integrity="sha256-Jvh9+A4HNbbWsWl1Dw7kAzNsU3y8elGIjLnUSUNMtLg="
+            crossorigin="anonymous"></script>
+
+    <!-- https://github.com/bvaughn/js-search -->
+    <script src="https://cdn.jsdelivr.net/npm/js-search@2.0.0/dist/umd/js-search.min.js"
+            integrity="sha256-LD9UsSATk+xTzAbk8nD2gA2bjHKvetXtCMDAFkM2K5Q="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0-rc.1/chartjs-plugin-datalabels.min.js" integrity="sha512-+UYTD5L/bU1sgAfWA0ELK5RlQ811q8wZIocqI7+K0Lhh8yVdIoAMEs96wJAIbgFvzynPm36ZCXtkydxu1cs27w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <link href="https://constructicon.github.io/norwegian/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <div class="row top-buffer d-flex align-items-center">
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+          <figure class="figure m-0">
+            
+            <img src="https:&#x2F;&#x2F;constructicon.github.io&#x2F;norwegian&#x2F;processed_images&#x2F;6cac16db9f223c2700.png"
+                 class="figure-img img-fluid rounded mb-0" alt="Norwegian Constructicon">
+          </figure>
+        </div>
+        <div class="col-md-9">
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: RGBA(8,52,73, 0.7);">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-5">
+                  <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/">Browse</a>
+                </li>
+                  <li class="nav-item mr-5">
+                      <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/advanced-search/">Advanced search</a>
+                  </li>
+                <li class="nav-item mr-5">
+                  <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/daily/">Daily dose</a>
+                </li>
+                  <li class="nav-item mr-5">
+                      <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/statistics/">Statistics</a>
+                  </li>
+                  <li class="nav-item mr-5">
+                      <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/instructions/">Instructions</a>
+                  </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="https://constructicon.github.io/norwegian/about/">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- end navigation -->
+
+      <div class="top-buffer">
+        
+  <!-- <h1>About NorKon</h1> -->
+  <h1 id="om-prosjektet">Om prosjektet</h1>
+<p>Velkommen til <strong>Det norske konstruktikonet</strong> (forkortet <strong>NorKon</strong>), en stor, søkbar database over grammatiske konstruksjoner i norsk. Vi bruker ordet «konstruksjon» for å referere til språkmønstre som er idiomatiske og som vanskelig lar seg oversette direkte. Dermed er de også ofte vanskelige å forstå og bruke riktig for innlærere. Konstruksjoner kan bestå av flere ord med én eller flere «åpne plasser», som i <strong>X og X, fru Blom</strong> (1), <strong>X belønne Y framfor Z</strong> (2), og <strong>X passe inn med Y</strong> (3). Vi regner også høyfrekvente ordkombinasjoner som <strong>fort gjort</strong> (4) som konstruksjoner, fordi de er ikke-komposisjonelle (det er ikke nok å vite betydningen av <em>fort</em> og <em>gjort</em> for å forstå <em>fort gjort</em>).</p>
+<ol>
+<li>Puben er irsk...skjønt [«er»]<sub>X</sub> <strong>og</strong> [«er»]<sub>X</sub>, <strong>fru Blom</strong>. (NoWaC, et webkorpus som inneholder ca. 700 millioner ord) </li>
+<li>[Publiseringssystemet]<sub>X</sub> <strong>belønner</strong> [kvantitet]<sub>Y</sub> <strong>framfor</strong> [kvalitet]<sub>Z</sub>. (Khrono)</li>
+<li>[Alt som ikke]<sub>X</sub> <strong>passer inn med</strong> [deres ideologi]<sub>Y</sub>, skal ut. (Khrono)</li>
+<li>Det er <strong>fort gjort</strong> å trykke på feil tast. (NoWaC)</li>
+</ol>
+<p>Alle disse konstruksjonene er svært vanlige i norsk, men de faller mellom to stoler i den forstand at de i liten eller ingen grad er representert i grammatikk- eller ordbøker. NorKon er ment å kompensere for denne mangelen i eksisterende språkressurser.</p>
+<h1 id="det-beste-fra-leksikografi-og-grammatikk">Det beste fra leksikografi og grammatikk</h1>
+<p>Leksikografi, eller ordkunnskap og utarbeiding av ordbøker, er et empirisk fag som baserer seg på store mengder korpusdata for å beskrive ordenes betydning og bruk, også flerordsuttrykk. Samtidig er relasjonene mellom ordene og hvordan de kombineres et underutviklet område innen leksikografi. Tradisjonell grammatikk på sin side fokuserer nettopp på hvordan språkformer danner et helhetlig system, men tar for seg kun en liten del av språket og baserer seg som regel ikke på autentiske eksempler.
+Dette betyr at det oppstår blindsoner i språket som er lite beskrevet. Vi kan illustrere dette med konstruksjonene <strong>drive og V</strong> (5), <strong>sitte og V</strong> (6), <strong>ligge og V</strong> (7), <strong>stå og V</strong> (8), og <strong>gå og V</strong> (9), der V står for et verb.</p>
+<ol start="5">
+<li>Min venninne og jeg <strong>driver og planlegger</strong> tur til Mount Everest. (NoWaC)</li>
+<li>Jeg <strong>sitter og leser</strong> i et blad nå. (NoWaC)</li>
+<li>Det pipes mot Vidar Riseth når han <strong>ligger og vrir seg</strong> i «smerte». (NoWaC)</li>
+<li>Vi <strong>ble stående og diskutere</strong> gårdsprodusert øl fra Midt-Norge. (NoWaC)</li>
+<li>Nå orker jeg ikke <strong>gå og ha</strong> det slik lenger. (NoWaC)</li>
+</ol>
+<p>Disse konstruksjonene er mangelfullt beskrevet i ordbøkene. For eksempel er <strong>sitte og V</strong> oppført i Norsk Akademis Ordbok (<a href="https://naob.no/">naob.no</a>), men ikke i bokmåls- og nynorskordboka (<a href="https://ordbokene.no/">ordbokene.no</a>); <strong>drive og V</strong> er oppført i nynorskordboka, men ikke i NAOB og bokmålsordboka, osv. Dessuten peker ikke uttrykkene, i den grad de er representert, til hverandre. Man går med andre ord glipp av at disse uttrykkene inngår i et system for å uttrykke at en handling er pågående, tilsvarende engelsk «present continuous».</p>
+<p>Dersom vi konsulterer en innføringsbok i norsk grammatikk, blir alle konstruksjonene nevnt sammen: «Norwegian uses separate expressions to compensate for the lack of progressive tense» (Mac Donald &amp; MacDonald 2013: 76). Men eksemplene som oppgis er liten grad illustrerende når det gjelder forskjellene mellom de ulike uttrykkene.</p>
+<p>NorKon baserer seg på autentiske eksempler og kvantitativ analyse av korpusdata. Dermed fanger vi opp at <strong>drive og V</strong> kan uttrykke både handlinger som pågår akkurat nå, men som også kan ha utstrekning over uker, måneder eller år, og at vanlige verb som inngår i konstruksjonen er <em>vedlikeholde, utvikle</em> og <em>bygge</em>. Dette i motsetning til <strong>sitte og V</strong>, som gjerne brukes sammen med verb som <em>vente, lese</em> og <em>skrive</em> for å uttrykke handlinger som pågår nå og typisk har en utstrekning på minutter eller timer. Vi kan også vise hva slags subjekter de ulike konstruksjonene tar, og da ser vi for eksempel at personer <em>ligger og sover</em>, <em>venter</em> eller <em>vrir seg i smerte</em>, mens <em>søppel</em> og <em>rot ligger og slenger</em>.</p>
+<p>Konstruksjonene i (5-9) inngår dessuten i en mer abstrakt konstruksjon (eller familie av konstruksjoner) som vi kaller <strong>V og V (pseudokoordinasjon)</strong>. På denne måten fanger vi opp semantiske og formelle fellestrekk mellom konstruksjoner, i dette tilfellet at de uttrykker en pågående handling og består av to verbaler som kongruerer i tempus og knyttes sammen med <em>og</em>.</p>
+<p>Ved å kombinere solide, empiriske undersøkelser i god leksikografisk ånd, med den tradisjonelle grammatikkens søken etter systematiske paradigmatiske relasjoner (former som kan fylle samme plass i en setning) kombinerer NorKon det beste av to verdener. Men vi går også lenger enn begge disse disiplinene når vi representerer språket som et nettverk av konstruksjoner.</p>
+<h1 id="et-dynamisk-nettverk-av-konstruksjoner">Et dynamisk nettverk av konstruksjoner</h1>
+<p>Alle konstruksjoner i NorKon blir gruppert i familier basert på semantiske og syntaktiske tagger. Dette gjør det enklere å se hvordan konstruksjonene henger sammen, hva de har til felles og hvordan de skiller seg fra hverandre. For eksempel har vi sett at konstruksjonene i (5-9) bruker pseudokoordinering for å uttrykke en pågående handling. Disse skiller seg fra konstruksjonene i (10-13) på flere interessante måter. Konstruksjonen <strong>ta og V</strong> (10) er også et eksempel på pseudokoordinasjon, men markerer at handlingen er i begynnelsesfasen (ingressivt aspekt). Konstruksjonen <strong>V og V</strong> (reduplisering, altså at verbet er det samme på begge plasser) (11) uttrykker at handlingen foregår ved gjentatte anledninger. Konstruksjonen <strong>holde på å V</strong> (12) kan uttrykke en pågående handling med utstrekning i tid, men er ikke en pseudokoordinasjon fordi verbet ikke kongruerer (<em>*de holdt på å laget</em>). Dessuten kan <strong>holde på å V</strong> bety at en handling er nær ved å skje, men ikke ble fullført (13).</p>
+<ol start="10">
+<li>Tusen takk, mamma, sier Maha og <strong>tar og legger</strong> matpakken i skolesekken. (NoWaC)</li>
+<li>Jeg har <strong>prøvd og prøvd</strong>, men jeg fordrar ikke dataspill. (NoWaC)</li>
+<li>Mozilla melder at de <strong>holder på å lage</strong> en Firefox-variant for mobiltelefoner. (NoWaC)</li>
+<li>Jeg <strong>holdt på å dø</strong> i brann i 2002. (NoWaC)</li>
+</ol>
+<p>Disse eksemplene viser at faktisk språkbruk er langt fra den idealiserte forestillingen der én form har én funksjon og kategorier enkelt kan overføres fra et språk til et annet (eksempel (5), (6), (7), (8), (9) og (12) kan alle oversettes til engelsk med «present continuous», men ingen av dem brukes nøyaktig som den engelske formen). Snarere kan vi snakke om et lappeteppe av delvis overlappende former, der vår oppgave er å vise hvordan de ulike lappene er sydd sammen. Konstruksjonene vi har diskutert her kan representeres grafisk som i figuren under, der noen konstruksjoner har lignende form og funksjon, mens andre bare deler form eller bare funksjon.</p>
+<img width="828" alt="Figur1 Om NorKon" src="https://github.com/user-attachments/assets/a9dbf96b-d86a-4618-999b-81a11c783270" />
+<p>Et slikt lokalt nettverk av konstruksjoner kan utvides til å inkludere hele språket, og termen <strong>«konstruktikon»</strong> brukes derfor både for å referere til databaser som NorKon, men også for å referere til det mentale nettverket som sies å utgjøre vår språkevne (se <em>Teorien bak prosjektet</em> under). NorKon utgjør dermed en kognitivt plausibel modell av språket som et nettverk av mentale assosiasjoner mellom språklige former og funksjoner. Derfor er vårt mål at NorKon skal dekke så mye av språket som mulig.</p>
+<h1 id="pedagogiske-fordeler">Pedagogiske fordeler</h1>
+<p>I innledningen nevnte vi at flerordsuttrykk er et lite utforsket område av språket. For innlærere er det vanskelig å oppdage og mestre disse strukturene uten eksplisitt undervisning på grunn av deres uregelmessige syntaks og ikke-komposisjonelle betydning. Dermed er det strategisk å fokusere på frekvente konstruksjoner når man underviser i fremmedspråk.</p>
+<p>Ved å flytte fokus fra tradisjonell grammatikk til språkstrukturer som er frekvente i faktisk språkbruk flyttes også fokus fra å bruke språket på en måte som er grammatikalsk korrekt til en måte som er idiomatisk (les: slik folk faktisk bruker språket). Det er ikke grammatikalsk feil å si <em>«en fugl er i treet»</em>, men folk med norsk som morsmål vil allikevel foretrekke <em>«det sitter en fugl i treet»</em> (14). Denne presenterings-konstruksjonen er et eksempel på idiomatisk språk, altså slik vi pleier å si ting på norsk. Et godt idiomatisk språk er veien til språklig integrering og NorKon tilbyr strukturert oversikt over idiomatiske strukturer som er annotert for språknivå i henhold til Europarådets nivåskala (A1 til C2).</p>
+<ol start="14">
+<li><strong>Det sitter</strong> [en fugl]<sub>NOE(N)</sub> [i treet utenfor vinduet]<sub>STED</sub>. (NoWaC)</li>
+</ol>
+<p>NorKon fokuserer også på språkets generative kraft: hvordan man kan kombinere ulike konstruksjoner for å skape stadig mer komplekse strukturer. For eksempel <strong>kan sitte og V</strong>-konstruksjonen (6) og presenterings-konstruksjonen (14) kombineres til en ny struktur (15), som både presenterer en ny referent og beskriver at handlingen som utføres er pågående og har utstrekning i tid.</p>
+<ol start="15">
+<li><strong>Det sitter</strong> [en statsråd]<sub>NOE(N)</sub> [i Oslo]<sub>STED</sub> <strong>og</strong> [overkjører lokaldemokratiet]<sub>HANDLING</sub>. (Facebook)</li>
+</ol>
+<p>I denne fremstillingen har vi brukt fagtermer for å beskrive hvordan konstruksjonene brukes, men én av fordelene med konstruksjonsbasert læring er at man kan unnslippe «ordklasseveldet» og den gresk-latinske terminologien som følger med på lasset. Klassisk grammatikkundervisning tar utgangspunkt i språklige former, som f.eks. <em>presens perfektum</em>. Vi kan tenke på konstruksjoner som et språklig mønster med en språklig funksjon og heller ta utgangspunkt i funksjonen. For eksempel kan vi bruke konstruksjonen <strong>ha (ikke) V siden TIDSPUNKT</strong> for å uttrykke at en situasjon (ikke) gjelder siden et tidspunkt i fortiden og også i fremtiden. Konstruksjonen brukes altså både positivt (16) og negativt (17), mens varianten <strong>ha ikke V på ANTALL TID</strong> (18) bare kan brukes negativt.</p>
+<ol start="16">
+<li>Koret vårt <strong>har</strong> [eksistert]<sub>HANDLING</sub> <strong>siden</strong> [96]<sub>TIDSPUNKT</sub>. (NoWaC)</li>
+<li>Jeg må så innmari tisse, jeg <strong>har ikke</strong> [tissa]<sub>HANDLING</sub> <strong>siden</strong> [i dag tidlig]<sub>TIDSPUNKT</sub>. (NoWaC)</li>
+<li>Jeg <strong>har ikke</strong> [trent]<sub>HANDLING</sub> <strong>på</strong> [flere år]<sub>ANTALL TID</sub>. (NoWaC)</li>
+</ol>
+<p>Fordelen med en slik tilnærming er at man slipper å lære om alle de ulike bruksområdene til en kategori (f.eks. <em>presens perfektum</em>) på én gang og heller kan fokusere på den relevante kommunikative funksjonen som trengs for å uttrykke en idé. Dessuten kan man også unngå terminologi som <em>presens perfektum</em>. Fordelen for studenter uten skolegang burde være åpenbar, men også for høyt utdannede kan dette være en fordel fordi slike kategorier oppfører seg ulikt på tvers av språk: for eksempel er det mange språk som ikke bruker presens perfektum for å uttrykke at en situasjon fortsatt (ikke) gjelder.</p>
+<h1 id="teorien-bak-prosjektet">Teorien bak prosjektet</h1>
+<p>Dette prosjektet tar utgangspunkt i <strong>konstruksjonsgrammatikken</strong>, en språkteori som anser hele vår språkevne som evnen til å beherske og kombinere grammatiske konstruksjoner. En konstruksjon defineres som et konvensjonalisert form-funksjon-par, og kan være alt fra et morfem til et komplekst syntaktisk mønster. Konstruksjonsgrammatikk analyserer språk som et strukturert nettverk av grammatiske konstruksjoner, kalt et konstruktikon.</p>
+<p>Termen <strong>konstruktikon</strong> refererer både til språkevnen som et nettverk av mentale assosiasjoner mellom lingvistiske former og funksjoner, og til digitale databaser som NorKon, som skal representere hvordan denne kunnskapen er organisert. NorKon er inspirert av lignende prosjekter i andre språk, inkludert svensk, tysk, engelsk, japansk og russisk.</p>
+<p>NorKon bidrar til et nytt fremvoksende forskningsfelt innen kognitiv lingvistikk som heter <strong>konstruktikografi</strong>, altså bygging av konstruktikoner. Dette feltet ligger i grenselandet mellom konstruksjonsgrammatikk, leksikografi, språkteknologi, og bruksbaserte tilnærminger til språksystemet.</p>
+<p><strong>Det norske konstruktikonet</strong> er et stort gruppeprosjekt der språkvitere og undervisere i norsk fra både Norge og utlandet kan delta. Hvis du er interessert i å samarbeide med oss, vennligst send en e-post til <a href="anna.endresen@uit.no">anna.endresen@uit.no</a> eller <a href="olaf.a.mikkelsen@uit.no">olaf.a.mikkelsen@uit.no</a>.</p>
+<h1 id="prosjektmedlemmer">Prosjektmedlemmer:</h1>
+<ul>
+<li>Anna Endresen (UiT)</li>
+<li>Olaf Mikkelsen (UiT)</li>
+<li>Zoia Butenko (Universitetet i Oslo): programmering</li>
+<li>Laura Janda (UiT)</li>
+<li>Urd Vindenes (Universitetet i Sørøst-Norge)</li>
+<li>Knut Ørke (UiT)</li>
+<li>Tore Nesset (UiT)</li>
+<li>Paulina Horbowicz (Adam Mickiewicz-universitetet i Poznań, Polen)</li>
+<li>Radovan Bast (CodeRefinery; oceanbox.io): programmering</li>
+</ul>
+<h1 id="hvordan-sitere-ressursen">Hvordan sitere ressursen:</h1>
+<ul>
+<li>På norsk:</li>
+</ul>
+<blockquote>
+<p>NorKon 2024 – Det norske konstruktikonet. Et digitalt nettverk av norske konstruksjoner. Tilgjengelig på <a href="https://constructicon.github.io/norwegian/">https://constructicon.github.io/norwegian/</a></p>
+</blockquote>
+<ul>
+<li>In English:</li>
+</ul>
+<blockquote>
+<p>NorKon 2024 – The Norwegian Constructicon. A digital network of Norwegian constructions. Available at <a href="https://constructicon.github.io/norwegian/">https://constructicon.github.io/norwegian/</a></p>
+</blockquote>
+<h1 id="publikasjoner-om-prosjektet">Publikasjoner om prosjektet:</h1>
+<blockquote>
+<p>Endresen, Anna &amp; Olaf Mikkelsen. 2024. <strong>Ten good reasons to build the Norwegian ConstructiCon, a dictionary of grammar.</strong> <em>Lexicographica – International Annual for Lexicography</em> 40(1), 121-145. <a href="https://www.degruyter.com/document/doi/10.1515/lex-2024-0007/html">https://doi.org/10.1515/lex-2024-0007</a> (open access).</p>
+</blockquote>
+
+
+      </div>
+
+      <div class="more-buffer">
+		
+          <hr>
+
+          <a href="https://hkdir.no/" target="_blank">
+            <figure class="figure">
+              
+              <img src="https:&#x2F;&#x2F;constructicon.github.io&#x2F;norwegian&#x2F;processed_images&#x2F;70924517b5be3ad500.png"
+                   class="figure-img img-fluid rounded" alt="HKdir logo">
+            </figure>
+          </a>
+
+          <span style="display:inline-block; width: 25px;"></span>
+
+          <a href="https://uit.no/" target="_blank">
+            <figure class="figure">
+              
+              <img src="https:&#x2F;&#x2F;constructicon.github.io&#x2F;norwegian&#x2F;processed_images&#x2F;7554588dbdaba0cb00.png"
+                   class="figure-img img-fluid rounded" alt="UiT logo">
+            </figure>
+          </a>
+        
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+
+    
+    
+
+  </body>
+</html>
